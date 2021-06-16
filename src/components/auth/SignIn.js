@@ -31,12 +31,12 @@ class SignIn extends Component {
                     <h5 className = "grey-text text-darken-3">SignIn</h5>
 
                     <div className = "input-field" >
-                        <label htmlFor = "email" >e-mail</label>
+                        <label htmlFor = "email" >E-mail</label>
                         <input type = "email" id = "email" onChange = {this.handleChange} />
                     </div>
                 
                     <div className = "input-field" >
-                        <label htmlFor = "password" >password</label>
+                        <label htmlFor = "password" >Password</label>
                         <input type = "password" id = "password" onChange = {this.handleChange} />
                     </div>
                 

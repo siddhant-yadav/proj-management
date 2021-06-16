@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa:wght@300&display=swap');
+
+
+.project-summary
+{
+    border-radius: 20px;
+}
+
+.inside-card
+{
+    /* font-family: 'Caveat', cursive; */
+    font-family: 'Comfortaa';
+}
