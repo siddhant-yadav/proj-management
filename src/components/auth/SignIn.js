@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import './SignIn.css'
+
 class SignIn extends Component {
 
     state = {
@@ -27,17 +29,17 @@ class SignIn extends Component {
     render() {
         return (
             <div className = "container">
-                <form onSubmit = {this.handleSubmit} className = "white" >
-                    <h5 className = "grey-text text-darken-3">SignIn</h5>
+                <form onSubmit = {this.handleSubmit} className = "border">
+                    <h5 className = "white-text text-darken-3">SignIn</h5>
 
                     <div className = "input-field" >
                         <label htmlFor = "email" >E-mail</label>
-                        <input type = "email" id = "email" onChange = {this.handleChange} />
+                        <input type = "email" id = "email" className = "white-text" onChange = {this.handleChange} />
                     </div>
                 
                     <div className = "input-field" >
                         <label htmlFor = "password" >Password</label>
-                        <input type = "password" id = "password" onChange = {this.handleChange} />
+                        <input type = "password" id = "password" className = "white-text" onChange = {this.handleChange} />
                     </div>
                 
                     <div className = "input-field" >
