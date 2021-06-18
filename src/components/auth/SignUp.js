@@ -36,7 +36,7 @@ class SignUp extends Component {
         return (
             <div className = "container" >
                 <form onSubmit = {this.handleSubmit} className = "border" >
-                    <h5 className = "grey-text text-darken-3">SignUp</h5>
+                    <h5 className = "white-text text-darken-3">SignUp</h5>
 
                     <div className = "input-field" >
                         <label >First Name</label>
@@ -65,7 +65,7 @@ class SignUp extends Component {
                     </div>
                 
                     <div className = "input-field" >
-                        <button className = "btn lighten-1 z-depth-0" >Sign Up</button>
+                        <button className = "btn pink lighten-1 z-depth-0" >Sign Up</button>
                     </div>
 
                 </form>
